@@ -1,0 +1,20 @@
+.slides-promo {
+    margin-left: 15px;
+    padding: 0px;
+    z-index: -10;
+    height: 700px;
+}
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	list-style-type:none;
+   
+}
+.slick-dots > li{
+    align-items: center;
+    justify-content: center;
+}
+.slick-dots .slick-active {
+    border: 2px solid rgba(38,153,251,255);
+    border-radius: 50%;
+}

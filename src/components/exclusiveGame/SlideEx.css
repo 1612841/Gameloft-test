@@ -1,0 +1,42 @@
+.slideEx {
+    position: absolute;
+    margin-top: 411px;
+    width: 100%;
+    height: 374px;
+}
+.cardEx {
+    height: 374px;
+}
+.buttonone{
+    position: absolute;
+    margin-top: 90px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    opacity: 0.7;
+    z-index: 50;
+    left: 826px;
+    background: rgba(255, 255, 255, 0);
+
+}
+.buttontwo{
+    position: absolute;
+    border: none;
+    margin-top: 90px;
+    width: 40px;
+    height: 40px;
+    z-index: 50;
+    left:1004px;
+    background: rgba(255, 255, 255, 0);
+}
+.onepages{
+    position: absolute;
+    left: 927px;
+    height: 41px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color:#2699fb;
+    margin-top: 98px
+}

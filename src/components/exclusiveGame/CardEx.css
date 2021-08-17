@@ -1,0 +1,31 @@
+.cardex {
+    position: absolute;
+    width: 650px;
+    height: 372.4px;
+    background:rgba(213,236,255,255);
+}
+.cardexhead {
+    position: absolute;
+}
+.cardexhead > button {
+    position: absolute;
+    margin-top: 21.32px;
+    margin-left: 568.4px;
+    width: 49.006713867188px;
+    height: 46.578125px;
+    background:rgba(255,255,255,0);
+    border: none;
+}
+.cardexbody{
+    justify-content: center;
+    align-items: center;
+}
+.cardexbody > img{
+    position: absolute;
+    opacity:1;
+    margin-left: 215px;
+    margin-top: 104px;
+    width: 220px;
+    height: 110px;
+    background:rgba(255,255,255,0);
+}

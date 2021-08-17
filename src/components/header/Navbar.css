@@ -1,0 +1,57 @@
+.navbar-menu {
+        width: 100%;
+        height: 76px;
+        background:rgba(255, 255, 255, 0.6);
+        z-index: 100;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+}
+.navbar-container{
+        display: flex;
+        align-items: center;
+        position: relative;
+
+}
+.navbar-logo {
+        position: absolute;
+        top: 3px;
+        left: 64px;
+        width: 229px;
+        height: 71px;
+        background:rgba(255,255,255,0);
+}
+.btns{
+        width: 100%;
+        top: 26.628448486328px;
+        right: 121.2px;
+}
+.btns-logo {
+        position: absolute;
+        border: none;
+        width: 70px;
+        height: 50px;
+        background:rgba(255,255,255,0);
+        top: 19px;
+        right: 64px;
+}
+.navbar-logo:hover #Path_209,
+.navbar-logo:hover #Path_210 {
+        fill: rgb(9, 113, 211);
+
+}
+.navbar-logo:hover {
+        border: 0.9px solid black;
+        border-radius: 10px;
+}
+
+
+.btns-logo:hover #Line_9,
+.btns-logo:hover #Line_10,
+.btns-logo:hover #Line_11 {
+        fill: rgb(9, 113, 211); 
+}
+.btns-logo:hover {
+        border: 0.9px solid black;
+        border-radius: 10px;
+}

@@ -1,0 +1,42 @@
+.slides {
+    position: absolute;
+    top:2586px;
+    width: 100%;
+    height: 383px;
+    margin-left: 20px;
+    padding: 0;
+}
+.btnsone{
+    position: inherit;
+    margin-top: 75px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    opacity: 0.7;
+    z-index: 50;
+    left: 826px;
+    background: rgba(255, 255, 255, 0);
+
+}
+.btnstwo{
+    position: inherit;
+    border: none;
+    margin-top: 75px;
+    width: 40px;
+    height: 40px;
+    z-index: 50;
+    left:1004px;
+    background: rgba(255,255,255,0);
+}
+.onepage{
+    position: inherit;
+    left: 927px;
+    height: 41px;
+    overflow: hidden;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color:#2699fb;
+    margin-top: 83px
+}

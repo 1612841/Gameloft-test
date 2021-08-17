@@ -1,0 +1,142 @@
+.promo-title{
+    position: relative;
+    margin-top: 16px;
+    width: 401.00012207031px;
+    height: 531px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background:rgba(38,153,251,255);
+    background:rgba(255,255,255,0);
+    background: -webkit-linear-gradient(-180deg , rgba(38,153,251,255) 40%, rgba(0,0,0,255) 100%);
+    background: -o-linear-gradient(-180deg , rgba(38,153,251,255) 40%, rgba(0,0,0,255) 100%);
+    background: -moz-linear-gradient(-180deg , rgba(38,153,251,255) 40%, rgba(0,0,0,255) 100%);
+    background: -ms-linear-gradient(-180deg , rgba(38,153,251,255) 40%, rgba(0,0,0,255) 100%);
+    background: linear-gradient(-180deg , rgba(38,153,251,255) 40%, rgba(0,0,0,255) 100%);
+}
+.promo-img {
+    position: absolute;
+
+}
+.promo-img >img {
+    position: absolute;
+    overflow: hidden;
+    margin-top: 71px;
+    margin-left: 91px;
+    width: 220px;
+    height: 110px;
+    transition: 0.5s;
+
+}
+.promo {
+    position: absolute;
+    overflow: hidden;
+    width: 401.00012207031px;
+    height: 1026px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background:rgba(255,255,255,0);
+    transition: 0.5s;
+    top: 0px;
+}
+
+.promo > h1 {
+    position: absolute;
+    margin-top: 414px;
+    margin-left: 38px;
+    width: 250px;
+    height: 118.5px;
+    font-family: 'Montserrat';
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 1.05px;
+    color:#ffffff;
+}
+.promo > img {
+    position: absolute;
+    display: none;
+    margin-top: 414px;
+    margin-left: 330px;
+    width: 39.513793945312px;
+    height: 39.513916015625px;
+    background:rgba(255,255,255,0);
+}
+.promo > hr {
+    position: absolute;
+    margin-top: 508px;
+    margin-left: 41.85px;
+    width: 77.836242675781px;
+    height: 2px;
+    background: white;
+    display: none;
+}
+.promo > p  {
+    position: absolute;
+    margin-top: 532px;
+    margin-left: 41.85px;
+    display: none;
+    width: 358px;
+    height: 114.5px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 450;
+    text-align: left;
+    letter-spacing: 0.45px;
+    color:#ffffff;
+}
+.promo > button {
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 25.2px;
+    width: 350px;
+    height: 77px;
+    background:rgba(255,255,255,0);
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 21px;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 1.05px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.promo-title:hover .promo {
+    transform: translateY(-380px);
+    transition: all 0.6s;
+    opacity: 1;
+}
+.promo-title:hover .promo >img {
+    display: block;
+    transition: 0.6s;
+}
+.promo-title:hover .promo > hr,
+.promo-title:hover .promo > p,
+.promo-title:hover .promo > h1 {
+    display: block;
+}
+.promo-title:hover .promo .promo-img {
+    display: none;
+    transition: 1.5s;
+}
+.promo-title:hover {
+    opacity: 1;
+    transition: 1s;
+    transition: all .3s ease-out;
+    height: 570px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 0px;
+    border: 0.1px solid black;
+}
+.promo-title:hover .promo > button {
+    margin-top: 830px;
+}

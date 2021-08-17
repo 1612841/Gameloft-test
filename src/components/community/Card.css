@@ -1,0 +1,24 @@
+.cards__items {
+        width: 96px;
+        height: 136px;
+        border: none;
+
+}
+.card-img{
+        width: 96.961090087891px;
+        height: 96.9609375px;
+        border: nones;
+}
+.title {
+        width: 87px;
+        height: 37px;
+        overflow: hidden;
+        font-family: Roboto Condensed;
+        font-size: 18px;
+        margin-left: -10px;
+        text-align: center;
+        color:#2699fb;
+}
+.link-social {
+        margin-left: 450px;
+}

@@ -1,0 +1,95 @@
+.forms {
+	position: absolute;
+	top: 1383px;
+	left: 1098px;
+	width: 251px;
+	height: 378px;
+	background:rgba(255,255,255,0);
+    justify-content: center;
+    align-items: center;
+}
+.forms > h1 {
+        top: 1383px;
+        left: 1098px;
+        width: 100%;
+        overflow: hidden;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: left;
+        color:#2699fb;
+}
+.forms > p {
+        top: 1417px;
+        left: 1098px;
+        width: 218px;
+        height: 39px;
+        overflow: hidden;
+        font-family: Montserrat;
+        font-size: 12px;
+        text-align: left;
+        color:#2699fb;
+    }
+.forms > input,
+.forms > select {
+        top: 1475px;
+        margin-top: 9px;
+        left: 1098px;
+        width: 253px;
+        height: 30px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        border: 1px solid #2699fb;
+        background:rgba(255,255,255,0);
+
+        padding-left: 10px;
+        overflow: hidden;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        text-align: left;
+        color:#2699fb;
+
+
+}
+.forms > button {
+        top: 1731px;
+        margin-top: 9px;
+        margin-left: 76px;
+        width: 102px;
+        height: 30px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        border: 1px solid #2699fb;
+        background:rgba(255,255,255,0);
+
+        overflow: hidden;
+        font-family: 'Montserrat';
+        font-size: 10px;
+        color:#2699fb;
+}
+.checkconfirm,
+.checkreceive {
+        top: 1646px;
+        margin-top: 9px;
+        left: 1098px;
+        width: 100%;
+        height: 39px;
+        background:rgba(255,255,255,0);
+
+        height: 46px;
+        overflow: hidden;
+        font-family: 'Montserrat';
+        font-size: 10px;
+        text-align: left;
+        color:#2699fb;
+}
+.checkconfirm > p,
+.checkreceive > p {
+        margin-left: 8px;
+}

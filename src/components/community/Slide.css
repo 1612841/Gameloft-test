@@ -1,0 +1,28 @@
+.slide {
+    width: 1020px;
+    margin: 0;
+    padding: 0;
+}
+.btnone{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -5px;
+    top: 2329.8247070312px;
+    left: 437px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    opacity: 0.7;
+    z-index: 50;
+}
+.btntwo{
+    position: absolute;
+    margin-top: 12px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    top: 2329.82421875px;
+    left: 1445.3251953125px;
+    z-index: 50;
+}
+

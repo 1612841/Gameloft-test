@@ -1,0 +1,104 @@
+
+.head {
+        width: 100%;
+        height: 1082px;
+        border: 1px solid #707070;
+        background:rgba(38,153,251,255);
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+    }
+.imagemountain {
+    position: absolute;
+        opacity: 1;
+        top: 396px;
+        left: 766px;
+        width: 332px;
+        height: 175px;
+        background:rgba(255,255,255,0);
+        justify-content: center;
+        align-items: center;
+}
+.intro {
+    position: absolute;
+        top: 750px;
+        left: 446px;
+        width: 599px;
+        height: 202px;
+        background:rgba(255,255,255,0);
+}
+.intro > h1 {
+        overflow: hidden;
+        font-size: 45px;
+        font-weight: bolder;
+        color:#ffffff;
+        margin-left: -3px;
+        font-family: 'Montserrat',
+}
+.intro > p{
+        overflow: hidden;
+        margin-top: 37px;
+        font-family: 'Montserrat';
+        width: 599px;
+        height: 101px;
+        font-size: 17px;
+        text-align: left;
+        color:#ffffff;
+}
+.rating > p{
+        overflow: hidden;
+        font-family: 'Montserrat';
+        font-size: 11px;
+        text-align: left;
+        color:#ffffff;
+}
+.btns-social-icons {
+    position: absolute;
+        top: 849px;
+        right: 64px;
+        width: 40.955688476562px;
+        height: 119.39770507812px;
+        background:rgba(255,255,255,0);
+}
+.store {
+    position: absolute;
+        top: 1002px;
+        left: 0px;
+        width: 100%;
+        height: 79px;
+        background:rgba(216,237,255,255);
+}
+.download {
+    position: absolute;
+        top: 18px;
+        left: 446px;
+        width: 1028px;
+        height: 40px;
+        background:rgba(255,255,255,0);
+        align-items: center;
+    }
+.links{
+    position: absolute;
+    left: 589px;
+    width: 100%;
+    height: 40px;
+}
+.nav-links{
+    text-decoration: none;
+
+}
+.nav-links >img {
+    width: 132px;
+    height: 40px;
+    margin: 3px 5px 0px 0px;
+    border-radius: 5px;
+}
+.nav-links > p {
+    margin: 3px 0px 3px 0px;
+    font-weight: bolder;
+    height: 41px;
+    overflow: hidden;
+    font-size: 20px;
+    text-align: left;
+    color:#2699fb;
+}
